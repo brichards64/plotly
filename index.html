@@ -1,0 +1,39 @@
+<head>
+  <!-- Load plotly.js into the DOM -->
+  <script src="plotly-2.3.0.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+</head>
+
+<body>
+
+<div><p txt=file.txt></p></div>
+  
+  <div id="data">
+
+    <object type="text/html" data="http://192.168.2.1/cgi-bin/test.cgi" width="800px" height="600px"  >
+    </object>
+     </div>
+
+  <p id="demo"></p>
+
+  <form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+    </form>
+  
+  
+  <div id="tester"></div>
+  <div id="graph"></div>
+    <!--<div id="tester" style="width:600px;height:250px;"></div> -->
+
+<script src="hkdisplay.js?version=59">  </script>
+
+
+  
+<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+
+</body>
